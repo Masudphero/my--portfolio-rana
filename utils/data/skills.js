@@ -41,7 +41,7 @@ export const skillsData = [
   Photoshop
   Illustrator
   Svelte
-  GCP
+  GC
   Azure
   Fastify
   Haxe
