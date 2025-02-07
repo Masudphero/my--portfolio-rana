@@ -1,13 +1,15 @@
 {
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "description": "Portfolio of Masud Rana",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+   "postinstall": "prisma generate && prisma migrate deploy"
+
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
@@ -16,6 +18,7 @@
     "lottie-react": "^2.4.1",
     "next": "15.1.1",
     "nodemailer": "^6.9.15",
+    "postinstall": "^0.7.5",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-fast-marquee": "^1.6.2",
